@@ -1,0 +1,123 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container { 
+    height: 1440px;
+    width: 2560px;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Card Holder Section */
+
+.card-holder{
+
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 380px;
+    height: 600px;
+    top: 10px;
+    border-radius: 15px;
+
+}
+.card-holder img {
+    height: 100px;
+    border-radius: 50%;
+}
+.Card-title{
+   color: hsl(0, 0%, 100%);
+   margin-bottom: 0px;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+
+.card-adress{
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    font-weight: 400
+    ;
+}
+.card-holder > p{
+
+    color:hsl(0, 0%, 60%);
+}
+.flx-container a {
+
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.flx-container a:hover {
+    background-color:hsl(75, 94%, 57%);
+    color: black;
+    font-size: 14px;
+}
+
+/* Flex Continaer */
+.flx-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.flx-container a {
+    background-color:hsl(0, 0%, 20%);
+    padding: 15px;
+    width: 80%;
+    font-size: 14px;
+    text-decoration: none;
+    cursor:poiter;
+}
+
+
+
+
+
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center;  color: hsl(0, 0%, 30%);}
+.attribution a { color: hsl(0, 0%, 100%); }
+
+
+
+
+
+
+/* Responsive */
+@media screen and (min-width: 356px) and (max-width: 1440px) {
+    
+.container {
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+
+.card-holder{
+    width: 350px;
+}
+
+}
